@@ -1,0 +1,106 @@
+body,
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Girassol|Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo|Comfortaa&display=swap');
+
+.bg {
+  /* The image used */
+  background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg');
+
+  /* Full height */
+  width: 100%;
+  height: 35vmax;
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.remove-all-margin-padding {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.heading {
+  display: inline-block;
+  font-size: 4vmin;
+  font-family: 'Girassol', cursive;
+}
+.content {
+  font-family: 'Inconsolata', monospace;
+  text-align: justify;
+}
+.center {
+  position: relative;
+  top: 3vmin;
+}
+
+.center-heading {
+  position: relative;
+  left: 40%;
+}
+
+.shift-bottom {
+  position: relative;
+}
+
+.content-education {
+  font-family: 'Inconsolata', monospace;
+  position: relative;
+  top: 15%;
+  left: -30%;
+  text-align: justify;
+}
+
+#education > .heading {
+  position: relative;
+  left: 40%;
+}
+
+.education-block {
+  border: 0.5px solid black;
+  border-radius: 3px;
+}
+
+.education-block > h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 3vmin;
+  text-align: left;
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+
+.education-block > h5 {
+  font-family: 'Cairo', sans-serif;
+  line-height: 10px;
+  font-size: 2vmin;
+  text-align: left;
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+
+.education-block > p {
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+  position: relative;
+  left: 10px;
+  top: 5px;
+  font-size: 1rem;
+}
+
+#education {
+  background-color: blanchedalmond;
+}
+
+.space {
+  height: 30px;
+}
